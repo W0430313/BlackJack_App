@@ -1,0 +1,28 @@
+$greenBackground: #34BE41;
+$biggerFont: 3.5em;
+$buttonBackground: #d4e040;
+$whitecolor: white;
+
+html {
+	background: $greenBackground;
+}
+
+h2 {
+	color: $whitecolor;
+	font-size: $biggerFont;
+}
+
+button {
+	background-color: $buttonBackground;
+	font-size: $biggerFont;
+	border-radius: 5px;
+	border: 2px solid $whitecolor;
+	padding: 10px;
+	
+	
+}
+
+img {
+	border-radius: 11px;
+	padding: 5px;
+}

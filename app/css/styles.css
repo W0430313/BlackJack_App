@@ -1,0 +1,17 @@
+html {
+  background: #34BE41; }
+
+h2 {
+  color: white;
+  font-size: 3.5em; }
+
+button {
+  background-color: #d4e040;
+  font-size: 3.5em;
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 10px; }
+
+img {
+  border-radius: 11px;
+  padding: 5px; }
