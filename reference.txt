@@ -1,0 +1,84 @@
+// (function () {
+
+//     let DECK = {}
+
+//     let DECK_ID = ""
+
+//     let DEALERS_CARDS = {}
+
+//     let PLAYERS_CARDS = []
+
+    
+//     const GET_INITIAL_DECK_ENDPOINT = "https:deckofcardsapi.com/api/deck/new/shuffle/?deck_count=6"
+
+//     let DRAW_CARDS = "https://deckofcardsapi.com/api/deck/temp/draw/?count=2"
+
+    
+    // fetch("https:deckofcardsapi.com/api/deck/new/shuffle/?deck_count=6").then(response => response.json() ).then(function(json) {
+        
+    //     DECK = json
+    //     console.log(DECK)
+    //     DECK_ID = DECK.deck_id
+    //     console.log("At first promise")
+        
+    //     // fetch(DRAW_CARDS.replace("temp",DECK_ID) ).then(response => response.json() ).then(function(json) {
+        
+    //     //   DEALERS_CARDS = JSON
+    
+    //     //   console.log(DEALERS_CARDS)
+    //     // })
+        
+    // }).then(fetch(DRAW_CARDS.replace("temp",DECK_ID) ).then(response => response.json() ).then(function(json) {
+        
+    //         console.log("At second promise")
+    //   }))
+
+    // function GetDeck() 
+    // {
+    //     fetch("https:deckofcardsapi.com/api/deck/new/shuffle/?deck_count=6")
+    //     .then(response => response.json() )
+    //     .then(deck => {
+    //         DECK = deck
+    //         DECK_ID = DECK.deck_id
+    //         console.log(DECK_ID)
+    //         DRAW_CARDS = DRAW_CARDS.replace("temp",DECK_ID)
+
+    //         GetInitialPlayerHand()
+    //     })
+    // }
+
+    // GetDeck()
+
+    // function GetInitialPlayerHand()
+    // {
+    //     fetch(DRAW_CARDS)
+    //     .then(response => response.json() )
+    //     .then(json => {
+    //         cards = json
+    //         PLAYERS_CARDS.push(cards.cards[0])
+    //         PLAYERS_CARDS.push(cards.cards[1])
+
+    //         console.log(PLAYERS_CARDS)
+
+    //         // PLAYERS_CARDS = cards.map(c => c.cards)
+    //     })
+    // }
+
+    // document.getElementById("btnDrawCard").onclick = function() {DrawCard() }
+
+    // function DrawCard()
+    // {
+    //     console.log("test")
+    // }
+
+    // GetInitialPlayerHand()
+    // .then(deck => fetch(DRAW_CARDS) )
+    // .then(respone => respone.json() )
+    // .then(dealerDeck => {
+    //     console.log("at the end of promises")
+    //     console.log(dealerDeck)
+    // })
+    
+
+
+// }) ()
